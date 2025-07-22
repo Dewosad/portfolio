@@ -11,7 +11,7 @@ import {
 
 const Landing = () => {
   return (
-    <div className="bg-[#efe5f6] flex flex-col items-center justify-center pt-20 ">
+    <div className="relatfive min-h-screen bg-[#efe5f6] flex flex-col items-center justify-cenfter pt-20 animate-fade-in-up">
       <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-br from-purple-600 to-pink-600 p-1">
         <div className="w-full h-full rounded-full bg-white flex items-center justify-center">
           <div className="w-24 h-24 rounded-full bg-gradient-to-br from-purple-600 to-pink-600"></div>
@@ -73,6 +73,8 @@ const Landing = () => {
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <ChevronDown className="text-gray-400" size={32} />
       </div>
+
+      <h3>About me</h3>
     </div>
   );
 };

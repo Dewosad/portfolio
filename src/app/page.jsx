@@ -5,8 +5,8 @@ import Landing from "./home/page";
 const Home = () => {
   return (
     <div>
-      <About />
       <Landing />
+      <About />
     </div>
   );
 };
